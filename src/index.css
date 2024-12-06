@@ -103,3 +103,27 @@ a{
   transition: top 0.3s ease;
 }
 }
+
+
+@media (max-width: 991.98px) {
+  .navbar-expand-lg .navbar-collapse {
+    -webkit-box-shadow: 0px 10px 30px rgba(83, 88, 93, 0.2);
+    box-shadow: 0px 10px 30px rgba(83, 88, 93, 0.2);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: #fff;
+    border-top: 1px solid var(--bs-border-color);
+  }
+  .dropdown{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 5px 30px;
+      position: relative;
+  }
+
+  .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-toggle::after {
+    position: absolute;
+    right: 25px;
+  }
+}
