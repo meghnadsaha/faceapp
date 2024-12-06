@@ -55,3 +55,11 @@ a{
   text-decoration: none !important;
   /* color: #14191e !important; */
 }
+
+.nav-link{
+  color: #212529 !important;
+}
+
+.card-footer {
+  background-color: rgba(249, 249, 249, 0) !important;
+}
