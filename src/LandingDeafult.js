@@ -34,7 +34,9 @@ function LandingDeafult() {
 
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="btn btn-primary" href="#" role="button">
+                                <i class="bi bi-megaphone-fill"></i>
+                            </a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link" href="#">Features</a>
@@ -48,11 +50,18 @@ function LandingDeafult() {
                         </ul>
 
 
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button class="btn btn-outline-primary" type="submit">Search</button>
-                        </form>
+               
                     </div>
+                    <ul class="nav flex-nowrap align-items-center  list-unstyled">
+                            <li class="nav-item ms-2">
+                                <a class="btn btn-primary" href="#" role="button">
+                                    <i class="bi bi-megaphone-fill"></i>
+                                </a>              
+                            </li>
+                           
+                            
+                           
+                    </ul>
                 </div>
             </nav>
      </header>
