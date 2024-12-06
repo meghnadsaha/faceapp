@@ -1,0 +1,10 @@
+// main.scss
+@import './variables';
+@import './mixins';
+@import './base';
+@import './components';
+
+// src/styles/main.scss
+$enable-negative-margins: true;
+
+@import 'bootstrap'; // Import Bootstrap after enabling negative margins

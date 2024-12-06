@@ -1,16 +1,57 @@
 :root {
   --bs-body-bg-: #eff2f6;
 }
-body{
+body {
   background-color: var(--bs-body-bg-) !important;
 }
 
-.navbar-light{
+.navbar-light {
   background-color: var(--bs-body-bg) !important;
 }
 
 @media (min-width: 1400px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
     max-width: 1200px !important;
   }
+}
+
+.card-img-top {
+  background-image: url(https://social.webestica.com/assets/images/bg/01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 46px;
+
+  
+}
+
+.main-1{
+  padding-top: calc(1.5rem + 56px);
+  margin-bottom: 1.5rem;
+}
+.avatar-lg {
+  height: 4rem;
+  width: 4rem;
+}
+.avatar {
+  /* height: 3rem;
+  width: 3rem; */
+  position: relative;
+  display: inline-block;
+}
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none !important;
+  /* color: #14191e !important; */
 }
