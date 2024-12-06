@@ -32,6 +32,7 @@ function LandingDeafult() {
                                 <a class="btn  px-2 position-absolute" href="#" role="button">
                                     <i class="bi bi-search"></i>
                                 </a>
+                                
                             </form>
 
 
@@ -71,9 +72,12 @@ function LandingDeafult() {
                         </div>
                         <ul class="nav flex-nowrap align-items-center  list-unstyled">
                             <li class="nav-item ms-2">
-                                <a class="btn btn-primary" href="#" role="button">
+                                {/* <a class="btn btn-primary" href="#" role="button">
                                     <i class="bi bi-megaphone-fill"></i>
-                                </a>
+                                </a> */}
+                                <button type="button" class="btn btn-primary position-relative">
+                                Alerts <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span class="visually-hidden">unread messages</span></span>
+                                </button>
                             </li>
 
 
@@ -95,18 +99,44 @@ function LandingDeafult() {
                                       {/* cover image  */}
                                         <img  src="" class="card-img-top" alt="..."/>
                                         {/* Card body */}
-                                        <div class="card-body pt-0">
+                                        <div class="card-body pt-0 py-0">
                                             <div class="text-center">
                                                 <div class="avatar avatar-lg mt-n5 mb-3">
 											       <a href="#!"><img class="avatar-img rounded border border-white border-3" src="https://social.webestica.com/assets/images/avatar/07.jpg" alt=""/></a>
 										        </div>
 
-                                                <h5 class="mb-0"> Sam Lanson</h5>
-                                                <small>Web Developer at Webestica</small>
-                                                <p class="mt-3">I'd love to change the world, but they won’t give me the source code.</p>
-                                                
+                                                <h5 class="mb-0 fw-bolder"> Sam Lanson</h5>
+                                                <small className="text-muted fw-light">Web Developer at Webestica</small>
+                                                <p class="mt-3 text-muted fw-light">I'd love to change the world, but they won’t give me the source code.</p>
+                                                    <div class="hstack gap-2 gap-xl-3 justify-content-center">
+                                                        <div>
+                                                            <h6 class="mb-0 fw-bolder">256</h6>
+                                                            <small className="text-muted fw-light">Post</small>
+                                                        </div>
+                                                        <div class="vr"></div>
+                                                        <div>
+                                                            <h6 class="mb-0 fw-bolder">2.5K</h6>
+                                                            <small className="text-muted fw-light">Followers</small>
+                                                        </div>
+                                                        <div class="vr"></div>
+                                                        <div>
+                                                            <h6 class="mb-0 fw-bolder">365</h6>
+                                                            <small className="text-muted fw-light">Following</small>
+                                                        </div>
+                                                    </div>
+                                                    <hr></hr>
+
+
+                                                    <ul class="nav nav-link-secondary  fw-bold gap-2">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link px-0" href="my-profile.html"><i class="bi bi-house-add me-2 h-20px fa-fw"></i><span>Feed </span></a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="card-footer text-center py-2">
+                                                        <a class="" href="my-profile.html">View Profile </a>
+                                                    </div>
                                             </div>
-                                        </div>
+                                      </div>
                                 </div>
                             </nav>
                         </div>
