@@ -63,3 +63,43 @@ a{
 .card-footer {
   background-color: rgba(249, 249, 249, 0) !important;
 }
+/* Center the navbar-toggler button */
+.navbar-toggler {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  transition: transform 0.3s ease, top 0.3s ease;
+  top: 10px; /* default position when collapsed */
+}
+
+/* When navbar is collapsed, adjust the position of the toggler */
+.navbar-collapse.collapsing ~ .navbar-toggler {
+  top: 50px; /* moves the toggler downward */
+}
+
+/* Make sure the toggler is in the correct place when expanded */
+.navbar-collapse.show ~ .navbar-toggler {
+  top: 10px; /* back to original position when the menu is expanded */
+}
+
+/* Optionally add a smooth transition for other navbar elements (if desired) */
+.navbar {
+  position: relative;
+}
+
+
+
+/* Media queries for mobile screens */
+@media (max-width: 991px) {
+  
+
+/* Fixing the "check" button to stay in place */
+.fixed-button {
+  position: absolute;
+  right: 15px; /* Adjust position from the right */
+  top: 10px;   /* Adjust position from the top */
+  z-index: 2;  /* Ensure it is above other navbar items */
+  transition: top 0.3s ease;
+}
+}
