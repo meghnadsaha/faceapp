@@ -33,11 +33,25 @@ function LandingDeafult() {
 
 
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                            <a class="btn btn-primary" href="#" role="button">
-                                <i class="bi bi-megaphone-fill"></i>
+{/* 
+                        npm install @popperjs/core@2.11.8
+
+                        In your src/index.js or src/App.js, import Bootstrap bundle min js :
+                        // index.js or App.js
+
+                        import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // This includes Popper.js automatically
+ */}
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
                             </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                             </li>
+           
                             <li class="nav-item">
                             <a class="nav-link" href="#">Features</a>
                             </li>

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap-reboot.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // This includes Popper.js automatically
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
