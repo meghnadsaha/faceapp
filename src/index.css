@@ -1,0 +1,16 @@
+:root {
+  --bs-body-bg-: #eff2f6;
+}
+body{
+  background-color: var(--bs-body-bg-) !important;
+}
+
+.navbar-light{
+  background-color: var(--bs-body-bg) !important;
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1200px !important;
+  }
+}
